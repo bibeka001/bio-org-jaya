@@ -1,0 +1,192 @@
+.main-service {
+  height: 100vh;
+  width: 100%;
+}
+.navbar-section-service {
+  padding: 2rem;
+  position: fixed;
+  z-index: 100;
+}
+.web-closer-section {
+  background: #efefef;
+  z-index: 100;
+}
+.section-service {
+  background: #efefef;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 12rem;
+  padding-bottom: 1rem;
+}
+.closeButton {
+  z-index: 40;
+}
+.customer-service-div {
+  background-color: #efefef;
+  height: 50rem;
+  padding: 10rem;
+  font-size: 15px;
+  padding-top: 26rem;
+  position: relative;
+  //display: block;
+  //float: left;
+  //overflow: hidden;
+  //font-weight:bold;
+  .sheimg {
+    //height: 23rem;
+    // padding-left: 20rem;
+    // position: absolute;
+    // bottom: 0rem;
+    // left: 40%;
+    // display: flex;
+    opacity: 1;
+    background-color: transparent;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
+
+  .h1 {
+    color: black;
+    font-weight: bold;
+  }
+  .h2 {
+    color: #a3238e;
+    font-weight: bold;
+    // display: inline;
+  }
+}
+.cancel-button {
+  position: absolute;
+  transform: translate(0rem, 1rem);
+  height: 2.5rem;
+  width: 3rem;
+  top: 0rem;
+}
+.second-div-services {
+  background-color: #f7f7f7;
+  height: 60rem;
+  padding: 10rem;
+  font-size: 25px;
+  padding-top: 5rem;
+  position: relative;
+  .flaskimg1 {
+    height: 5rem;
+    left: 3rem;
+    position: absolute;
+    top: 2rem;
+  }
+  .flaskimg2 {
+    height: 5rem;
+    right: 3rem;
+    position: absolute;
+    top: 29rem;
+  }
+  .flaskimg3 {
+    height: 5rem;
+    left: 3rem;
+    position: absolute;
+    bottom: 2rem;
+  }
+  .service-options-box {
+    background-color: #f7f7f7;
+    height: 40rem;
+    width: 58rem;
+    border-radius: 25px;
+    border: 3px solid #a3238e;
+    padding: 50px;
+    position: absolute;
+    top: 12rem;
+    right: 18rem;
+  }
+  .options-box {
+    height: 3rem;
+    width: 11rem;
+    // background-color: white;
+    color: #a3238e;
+    font-weight: bold;
+    font-size: 12px;
+    //z-index: 30;
+    // border: 1px solid black;
+    // position: absolute;
+    // padding: 7px 35px;
+    text-align: left;
+    // padding-left: 3rem;
+    display: flex;
+    align-items: center;
+  }
+  .icon-img {
+    height: 2.5rem;
+    width: 2.5rem;
+    // position: absolute;
+    left: 0.2rem;
+    bottom: 10px;
+    // background-color: white;
+    // border-radius: 50px;
+  }
+}
+.third-div-services {
+  background-color: #efefef;
+  height: 35rem;
+  padding: 10rem;
+  font-size: 25px;
+  padding-top: 5rem;
+  position: relative;
+  .flaskimg1 {
+    height: 4rem;
+    right: 3rem;
+    position: absolute;
+    top: 2rem;
+  }
+  .flaskimg2 {
+    height: 4rem;
+    left: 3rem;
+    position: absolute;
+    top: 19rem;
+  }
+  .flaskimg3 {
+    height: 4rem;
+    right: 3rem;
+    position: absolute;
+    bottom: 2rem;
+  }
+  .form-style {
+    width: 25rem;
+    border-radius: 20px;
+    font-size: 20px;
+    // margin-bottom: 20px;
+    border: 1px solid white !important;
+    // position: absolute;
+    // left: 24rem;
+  }
+  .form-style:hover {
+    border: 2px solid #710060;
+  }
+
+  ::placeholder {
+    color: #b2b2b2;
+    font-size: 15px;
+    padding-left: 1rem !important;
+    font-weight: bold;
+  }
+  .form-submit-btn {
+    border-radius: 25px;
+    padding: 9px 30px;
+    // margin-top: 52%;
+    background-color: transparent;
+    color: #b2b2b2;
+    border: 2px solid #b2b2b2;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 17rem;
+  }
+  .form-submit-btn:hover {
+    color: #f6913a;
+    border: 2px solid #f6913a;
+    //background-image: linear-gradient(to right, #f6913a, #a3238e);
+    //border: transparent;
+  }
+}

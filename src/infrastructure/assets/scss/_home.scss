@@ -1,0 +1,242 @@
+.main {
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar-section {
+  padding: 2rem;
+  position: fixed;
+  z-index: 100;
+}
+.modal-close-button {
+  position: absolute;
+  top: 0;
+  right: -0;
+  height: 2.5rem;
+  width: 3rem;
+  z-index: 100;
+}
+
+.sheimage {
+  opacity: 1;
+  background-color: transparent;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.section1 {
+  background: #efefef;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+}
+.btn {
+  border-radius: 25px !important;
+  padding: 7px 25px !important;
+  margin-top: 30px !important;
+  color: #f6913a !important;
+  border: 2px solid #f6913a !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+}
+.btn:hover {
+  color: #f6913a !important;
+  border: 2px solid #f6913a !important;
+}
+.web-closer-setion {
+  background: #efefef;
+  z-index: 50;
+}
+.closeButton {
+  z-index: 40;
+}
+.section2 {
+  background: #f7f7f7;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.sol {
+  opacity: 1;
+  background-color: transparent;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.h21 {
+  color: black;
+  font-weight: bold;
+}
+.h22 {
+  color: #a3238e;
+  font-weight: bold;
+}
+.h61 {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.h23 {
+  color: #a3238e;
+  font-weight: bold;
+}
+.btn:hover {
+  color: white;
+  background-image: linear-gradient(to right, #f6913a, #a3238e);
+  border: transparent;
+}
+.section3 {
+  background: #f7f7f7;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 5rem;
+}
+.sheimage2 {
+  opacity: 1;
+  background-color: transparent !important;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.h62 {
+  left: 44rem;
+  font-weight: bold;
+  bottom: 17rem;
+}
+.h24 {
+  left: 44rem;
+  color: #a3238e;
+  font-weight: bold;
+}
+.section4 {
+  background: #efefef;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.h25 {
+  color: #a3238e;
+  font-weight: bold;
+  bottom: 18rem;
+}
+.section5 {
+  background: #f7f7f7;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.footer {
+  background: #710060;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.custom-button-group {
+  justify-content: center;
+  display: flex;
+  margin-top: 2rem;
+  margin-right: 5rem;
+}
+.LeftArrowIcon {
+  color: #710060;
+  margin: 0.5rem;
+}
+.LeftArrowIcon:hover {
+  color: #f6913a;
+}
+
+.productCard {
+  border-radius: "20px";
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+.ProductContainer {
+  margin-left: "-20px" !important;
+  padding-right: "10px";
+}
+
+.my-carousel {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 0 !important;
+}
+
+
+.backdrop-close {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 40;
+  backdrop-filter: blur(5px);
+}
+.category-card{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  align-items:center;
+  height:14rem;
+  width: 12rem;
+  border-radius: 10px;
+  .check-btn{
+    border-radius: 25px !important;
+    padding: 7px 25px !important;
+    margin-top: 3rem !important;
+    color: #a3238e ;
+    border: 2px solid #a3238e ;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    width: 8rem;
+    margin-left: 10px !important;
+  }
+  .check-btn:hover{
+    color: white;
+    background-image: linear-gradient(to right, #f6913a, #a3238e);
+    border: transparent;
+  }
+}
+.category-card:hover{
+  color: #a3238e ;
+  border: 1px solid #a3238e ;
+}
+.certificate-card{
+height: 10rem;
+width: 30rem;
+border-radius: 15px;
+.certificate-btn{
+  border-radius: 25px;
+  color: #f6913a;
+  border: 2px solid #f6913a;
+  background-color: transparent;
+  width: 6rem;
+  
+}
+.certificate-btn:hover{
+  color: white;
+  background-image: linear-gradient(to right, #f6913a, #a3238e);
+  border: transparent;
+  
+}
+
+}
+.certificate-card:hover{
+  color: #a3238e ;
+  border: 1px solid #a3238e ;
+}
+

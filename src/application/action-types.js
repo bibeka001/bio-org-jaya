@@ -1,0 +1,20 @@
+//Auth Action
+export const LOADING = "LOADING";
+export const HOME = "HOME";
+export const SUCCESS = "SUCCESS";
+export const FAIL = "FAIL";
+export const LOGIN = "LOGIN";
+export const LOGOUT = "LOGOUT";
+export const SIGNUP = "SIGNUP";
+export const VERIFY_OTP = "VERIFY_OTP";
+export const RESEND_OTP = "RESEND_OTP";
+export const GET_PRODUCT_LIST = "GET_PRODUCT_LIST";
+export const GET_CERTIFICATE_LIST = "GET_CERTIFICATE_LIST";
+export const GET_PRODUCT_BY_CATEGORY = "GET_PRODUCT";
+export const DELETE_PRODUCT_LIST = "DELETE_PRODUCT_LIST";
+export const POST_PRODUCT_LIST = "POST_PRODUCT_LIST";
+export const GET_PRODUCT_BY_ID = "GET_PRODUCT_BY_ID";
+export const IMAGE_UPLOAD="IMAGE_UPLOAD";
+export const GET_LATEST_PRODUCT = "GET_LATEST_PRODUCT";
+export const GET_CATEGORY_LIST = "GET_CATEGORY_LIST";
+export const POST_CONTACT_LIST = "POST_CONTACT_LIST";

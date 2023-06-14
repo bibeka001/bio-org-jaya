@@ -1,0 +1,121 @@
+.navbar {
+  background: transparent;
+  background-color: #f7f7f7;
+  border-radius: 25px !important;
+  padding: 8px;
+  z-index: 30;
+  opacity: calc(1);
+  // position: fixed;
+  // width: 82rem;
+}
+.bio-logo {
+  top: 10%;
+  width: 3rem;
+  height: 4rem;
+}
+.search-box {
+  background-color: white;
+  border: 2px solid #f7f7f7;
+  height: 3rem;
+  width: 100%;
+  border-radius: 35px;
+  text-align: center;
+}
+
+.search-btn {
+  position: absolute;
+  z-index: 30;
+  right: 2rem;
+  cursor: pointer;
+  transform: translate(0%, 45%);
+}
+.info-btn {
+  z-index: 90;
+  position: absolute;
+  left: 10px;
+  transform: translate(50%, 50%);
+  top: -5px;
+}
+.search-btn {
+  z-index: 90;
+  position: absolute;
+  right: 20px;
+  transform: translate(50%, 50%);
+}
+.search-container {
+  z-index: 100;
+}
+.search-container:hover {
+  color: #f6913a;
+  .search-box {
+    border: 1px solid #a3238e;
+    cursor: pointer;
+  }
+  .info-btn {
+    color: #a3238e;
+    cursor: pointer;
+  }
+}
+
+::placeholder {
+  color: rgb(209 209 209);
+  font-size: 15px;
+  padding-left: 4rem !important;
+}
+.search-box:hover {
+  border: 1px solid #a3238e;
+  cursor: pointer;
+}
+.header-btn {
+  border-radius: 25px;
+  padding: 7px 20px;
+  margin-top: 23px;
+  background-color: transparent;
+  color: black;
+  border: 2px solid #f7f7f7;
+  text-decoration: none;
+  font-size: 18px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  &:active {
+    color: white !important;
+  }
+}
+.header-btn:hover {
+  color: #f6913a !important;
+  border: 2px solid #f6913a;
+  font-weight: bold;
+  text-align: center;
+}
+.header-btn-enq {
+  border-radius: 25px;
+  display: inline;
+  margin-left: auto;
+  padding: 7px 25px;
+  margin-top: 23px;
+  background-color: transparent;
+  color: #a3238e;
+  font-weight: bold;
+  float: left;
+  border: 2px solid #a3238e;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+.header-btn-enq:hover {
+  color: white !important;
+  background-color: #a3238e;
+  border: 2px solid #a3238e;
+}
+.active {
+  background-image: linear-gradient(to right, #f6913a, #a3238e);
+  border: transparent;
+  color: #ffffff !important;
+}
+.heaer-btn-text:hover {
+  color: #f6913a;
+}

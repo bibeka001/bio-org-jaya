@@ -1,0 +1,113 @@
+.main {
+  height: 100vh;
+  width: 100%;
+}
+
+.upper-div {
+  background-color: #f7f7f7;
+  height: 5rem;
+  width: auto;
+}
+.rowstyle > * {
+  padding-left: 105px;
+  padding-top: 60px;
+}
+.colstyle > * {
+  margin-bottom: 0 !important;
+}
+.contact-div {
+  background-color: #710060;
+  padding-right: 0;
+  height: 80vh;
+  .purpleimg {
+    height: 11rem;
+    width: 13rem;
+    right: 10rem;
+  }
+  .imageDiv {
+    text-align: right;
+  }
+  .p1 {
+    color: orange;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-left: 5px;
+  }
+  .div-col-style {
+    padding-left: 20rem;
+    background-image: url("../images/purple_circle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .text-white {
+    font-size: 20px;
+    margin-left: 5rem;
+  }
+  .locationimg {
+    width: 23rem;
+    height: 13rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+.form-div {
+  background-color: #efefef;
+  height: 80vh;
+  // width: "100%";
+
+  .form-text-div {
+    font-weight: bold;
+    font-size: 1.6rem;
+    // margin-left: 70px;
+  }
+  .form-style {
+    width: "100%";
+    border-radius: 20px;
+    padding: 0.6rem 0.4rem;
+    border: 1px solid white;
+    margin-top: 0.6rem;
+  }
+  .form-style:hover {
+    border: 2px solid #710060;
+  }
+  ::placeholder {
+    color: #b2b2b2;
+    font-size: 15px;
+    padding-left: 1rem !important;
+    font-weight: bold;
+  }
+  .form-submit-btn {
+    border-radius: 25px;
+    padding: 9px 32px;
+    margin-top: 2rem;
+    background-color: transparent;
+    color: #f6913a;
+    border: 2px solid #f6913a;
+    font-weight: bold;
+    font-size: 14px;
+    height: 2.4rem;
+  }
+  .form-submit-btn:hover {
+    color: white;
+    background-image: linear-gradient(to right, #f6913a, #a3238e);
+    border: transparent;
+  }
+}
+.containerDiv {
+  background-color: #e31313;
+}
+.errorMessage {
+  color: #db1313;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+.formContainer {
+  // padding-left: 5rem;
+  // padding-right: 20rem;
+  // padding-top: 2rem;
+}

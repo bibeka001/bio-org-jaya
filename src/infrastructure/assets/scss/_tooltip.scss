@@ -1,0 +1,27 @@
+.tooltip-custom >.tooltip-inner{
+    background-color: #f7f7f7 !important;
+    //color: #333;
+    border: 1px solid #ccc !important;
+    border-radius: 15px;
+    // font-size: 4px;
+    padding: 10px 3px 1px 3px;
+    width: 10rem;
+    height: 5rem;
+  }
+  .tooltip-custom:hover{
+    border: 1px solid #a3238e;
+    border-radius: 15px;
+  }
+  
+  // .tooltip-custom.show {
+  //   display: block;
+  // }
+  
+  // .tooltip-custom.fade {
+  //   transition: opacity 0.5s;
+  // }
+  
+  // .tooltip-custom.fade.show {
+  //   opacity: 1;
+  // }
+  
